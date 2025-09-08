@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thejahiratwala Template</title>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Miniver&display=swap" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+  
+    <style>
+    .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+        .whatsapp-float img {
+            width: 60px;
+            height: auto;
+            filter: drop-shadow(0 2px 5px rgba(0,0,0,0.3));
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        </style>
+</head>
+
+<body>
+
+    <!--Header / Navbar-->
+<header>
+  <nav class="navbar section-content">
+    <!-- Logo -->
+    <a href="#" class="nav-logo">
+      <img src="img/logo.png" alt="Logo" style="height:50px;">
+    </a>
+
+    <!-- Navigation Menu -->
+    <ul class="nav-menu">
+      <button id="menu-close-button" class="fas fa-times"></button>
+      <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>  
+      <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+      <li class="nav-item"><a href="#demo" class="nav-link">Demo</a></li>
+      <li class="nav-item"><a href="#video" class="nav-link">Video</a></li>
+      <li class="nav-item"><a href="#feedback" class="nav-link">Feedback</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+
+    <!-- Right Side Icons -->
+    <div class="nav-icons">
+      <a href="https://www.facebook.com/share/1BfgNxNRMF/"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/thejahiratwala?igsh=MWZpNm93YzR6NHJzdQ=="><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.link/5g1xci"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button id="menu-open-button" class="fas fa-bars"></button>
+  </nav>
+</header>
+
+
+
+    <!--<header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <img src="img/logo.png" alt="Logo" style="height:50px;">
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Demo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Video</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+
+        </nav>
+    </header>-->
+
+    <main>
+        <!--hero section-->
+        <section class="hero-section" id="home">
+            <div class="section-content">
+                <div class="hero-details">
+                    <p class="subtitle">मराठी सोशल मिडिया डिझाईन्स तसेच व्हिडिओ ॲप!</p>
+                    <h1 class="title">दि जाहिरातवाला</h1>
+                    <p class="description">व्यवसाय असो वा राजकारण
+                        जो दिसतो तोच टिकतो...</p>
+                    <div class="buttons">
+        <!-- Download App button (Play Store) -->
+        <a href="https://play.google.com/store/apps/details?id=com.thejahiratwala.brandmaker" 
+           target="_blank" rel="noopener noreferrer" 
+           class="button download-app">
+          Download App
+        </a>
+
+        <!-- Contact Us button (scroll to contact section) -->
+        <a href="#contact" class="button contact-us">
+          Contact Us
+        </a>
+      </div>
+
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="img/the-jahiratwala-app-1.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Carousel Wrapper -->
+  <div class="elementor-image-carousel-wrapper swiper">
+    <div class="elementor-image-carousel swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/1.png" alt="1"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/2.png" alt="2"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/3.png" alt="3"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/4.png" alt="4"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/5.png" alt="5"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/6.png" alt="6"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/7.png" alt="7"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/8.png" alt="8"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/9.png" alt="9"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/10.png" alt="10"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/11.png" alt="11"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/12.png" alt="12"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/13.png" alt="13"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/14.png" alt="14"></figure></div>
+      <div class="swiper-slide"><figure class="swiper-slide-inner"><img src="https://thejahiratwala.com/wp-content/uploads/2025/06/15-1.png" alt="15"></figure></div>
+    </div>
+  </div>
+        
+        <!--end of hero section-->        
+
+        <!--features section-->
+        <section class="features-section" id="features">
+            <h2 class="section-title">Our Features</h2>
+            <div class="features-container">
+
+                <!-- Left side features -->
+                <div class="features-column left">
+                    <div class="feature-box">
+                        <h3 class="name">मराठी डिझाइन्स / व्हिडिओ</h3>
+                        <p class="text">अनलिमिटेड मराठी दिनविशेष, सुविचार, वाढदिवस, जनजागृती पोस्ट आणि महत्वाच्या सणांचे
+                            व्हिडिओ उपलब्ध.</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3 class="name">स्पेशल फ्रेम सुविधा</h3>
+                        <p class="text">तुम्हाला तुमच्या फोटो, नाव, पदासह आकर्षक स्पेशल फ्रेम डिझाईन करून अ‍ॅपमध्ये सेट
+                            करून दिली जाते.</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3 class="name">सोपा इंटरफेस</h3>
+                        <p class="text">वापरण्यास अगदी सहज आणि सोपे.</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3 class="name">सहज डाउनलोड</h3>
+                        <p class="text">तुम्ही तुमचे पोस्ट अथवा व्हिडिओ निवडला की, तो त्वरित डाउनलोडसाठी उपलब्ध होतो.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Center mobile image -->
+                <div class="features-center">
+                    <img src="img/mobile11.png" alt="Mobile App" class="mobile-image">
+                </div>
+
+                <!-- Right side features -->
+                <div class="features-column right">
+                    <div class="feature-box">
+                        <h3 class="name">मिनी वेबसाइट</h3>
+                        <p class="text">app द्वारे अगदी सोप्या पद्धतीने तुमची राजकीय अथवा व्यवसायिक मिनी वेबसाइट देखील
+                            बनवू शकता.</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3 class="name">व्यवसाय कॅटेगरी</h3>
+                        <p class="text">वापरण्यास अगदी सहज आणि सोपे.100 पेक्षा जास्त व्यवसाय
+                            संबंधित रेडीमेड पोस्ट जाहिरातीसाठी उपलब्ध.</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3 class="name">माफक दरात पॅकेज</h3>
+                        <p class="text">तुम्हाला अनुकूल प्लॅन आपण निवडू शकता.</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3 class="name">ग्राहक सहाय्यता</h3>
+                        <p class="text">अ‍ॅप संदर्भात काही अडचण आल्यास आमचे ग्राहक सेवा प्रतिनिधी आपल्या सेवेसाठी स.9.00
+                            ते सायं.07.00 या वेळेत उपलब्ध असतात.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+               <!--demo section-->
+          <div class="container">
+        <!-- First Demo Section -->
+        <section class="demo-section"  id="demo">
+            <h2 class="journey-title">राजकीय डेमो</h2>
+            <div class="section-content">
+                <div class="left-column">
+                    <ul class="demo-list">
+                        <li class="demo-item">
+                            <img src="img/poster1.png" alt="Demo 1" class="demo-image">
+                        </li>
+                        <li class="demo-item">
+                            <img src="img/poster2.png" alt="Demo 2" class="demo-image">
+                        </li>
+                        <li class="demo-item">
+                            <img src="img/poster3.jpeg" alt="Demo 3" class="demo-image">
+                        </li>
+                        <li class="demo-item">
+                            <img src="img/poster4.jpg" alt="Demo 4" class="demo-image">
+                        </li>
+                        <li class="demo-item">
+                            <img src="img/poster5.jpg" alt="Demo 5" class="demo-image">
+                        </li>
+                        <li class="demo-item">
+                            <img src="img/poster6.jpg" alt="Demo 6" class="demo-image">
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="right-column">
+                    <div class="featured-demo">
+                        <img src="img/political-man.png" alt="Featured Demo" class="featured-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Second Demo Section -->
+        <section class="demo-section second-section">
+            <h2 class="journey-title second-title">व्यवसाय डेमो</h2>
+            <div class="section-content">
+                <div class="left-column">
+                    <ul class="demo-list">
+                        <li class="demo-item second-demo-item">
+                            <img src="img/busns1.jpg" alt="Demo 8" class="demo-image">
+                        </li>
+                        <li class="demo-item second-demo-item">
+                            <img src="img/busns2.jpg" alt="Demo 9" class="demo-image">
+                        </li>
+                        <li class="demo-item second-demo-item">
+                            <img src="img/busns3.jpeg" alt="Demo 10" class="demo-image">
+                        </li>
+                        <li class="demo-item second-demo-item">
+                            <img src="img/busns4.jpg" alt="Demo 11" class="demo-image">
+                        </li>
+                        <li class="demo-item second-demo-item">
+                            <img src="img/busns5.jpeg" alt="Demo 12" class="demo-image">
+                        </li>
+                        <li class="demo-item second-demo-item">
+                            <img src="img/busns6.jpeg" alt="Demo 13" class="demo-image">
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="right-column">
+                    <div class="featured-demo second-featured-demo">
+                        <img src="img/business-man.png" alt="Featured Demo 2" class="featured-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+                     <!--video section-->
+        <section id="video" class="influencer-corner"id="video">
+        <h2 class="section-title">Influencer Corner</h2>
+         </div>
+
+        <div class="video-row">
+        <video class="influencer-video" src="https://thejahiratwala.com/wp-content/uploads/2025/04/WhatsApp-Video-2025-04-26-at-09.32.48.mp4" autoplay loop muted playsinline controls controlslist="nodownload"></video>
+
+        <video class="influencer-video" src="https://thejahiratwala.com/wp-content/uploads/2025/04/WhatsApp-Video-2025-04-26-at-09.33.53.mp4" autoplay loop muted playsinline controls controlslist="nodownload"></video>
+
+        <video class="influencer-video" src="https://thejahiratwala.com/wp-content/uploads/2025/04/WhatsApp-Video-2025-04-26-at-09.31.26.mp4" autoplay loop muted playsinline controls controlslist="nodownload"></video>
+
+        <video class="influencer-video" src="https://thejahiratwala.com/wp-content/uploads/2025/04/WhatsApp-Video-2025-04-26-at-09.33.55.mp4" autoplay loop muted playsinline controls controlslist="nodownload"></video>
+
+        <video class="influencer-video" src="https://thejahiratwala.com/wp-content/uploads/2025/04/WhatsApp-Video-2025-04-26-at-09.31.29.mp4" autoplay loop muted playsinline controls controlslist="nodownload"></video>
+
+        <video class="influencer-video" src="https://thejahiratwala.com/wp-content/uploads/2025/04/WhatsApp-Video-2025-04-26-at-09.33.54.mp4" autoplay loop muted playsinline controls controlslist="nodownload"></video>
+  </div>
+</section>
+
+
+
+        <!--feedback section-->
+        <section class="feedback-section" id="feedback">
+            <h2 class="section-title">Feedback</h2>
+            <h3 class="section-subtitle">What Our Customers Say</h3>
+            <div class="section-content">
+                <div class="reviews-container">
+                    <div class="reviews-slider">
+                        <div class="review-slide">
+                            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="User 1"
+                                class="reviewer-image">
+                            <p class="review-text">"Amazing app! मराठी डिझाईन्ससाठी खूप उपयुक्त. टेम्पलेट्स आकर्षक असून
+                                सुलभपणे आपल्या गरजेनुसार बदलता येतात."</p>
+                            <h4 class="reviewer">- Priya Deshmukh</h4>
+                        </div>
+                        <div class="review-slide">
+                            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="User 2"
+                                class="reviewer-image">
+                            <p class="review-text">"Loved the easy interface and features. It has saved me so much time
+                                in creating marketing materials."</p>
+                            <h4 class="reviewer">- Raj Patel</h4>
+                        </div>
+                        <div class="review-slide">
+                            <img src="img\girl.jpeg" alt="User 3"
+                                class="reviewer-image">
+                            <p class="review-text">"Highly recommended for business promotion. Our social media
+                                engagement has increased significantly."</p>
+                            <h4 class="reviewer">- Sunita Desai</h4>
+                        </div>
+                        <div class="review-slide">
+                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="User 4"
+                                class="reviewer-image">
+                            <p class="review-text">"वापरण्यास अतिशय सोपे आणि प्रभावी. डिझाईनचा अनुभव नसतानाही मी व्यावसायिक दिसणारी सामग्री तयार केली.."</p>
+                            <h4 class="reviewer">- Amit Patil</h4>
+                        </div>
+                        <div class="review-slide">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="User 5"
+                                class="reviewer-image">
+                            <p class="review-text">"Great support and fast updates. The team is always adding new
+                                features based on user feedback."</p>
+                            <h4 class="reviewer">- Neha Gupta</h4>
+                        </div>
+                        <div class="review-slide">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="User 6"
+                                class="reviewer-image">
+                            <p class="review-text">"Very helpful for business growth. The analytics feature helps us
+                                track what works best for our audience."</p>
+                            <h4 class="reviewer">- Vikram Singh</h4>
+                        </div>
+                        <div class="review-slide">
+                            <img src="https://randomuser.me/api/portraits/women/76.jpg" alt="User 7"
+                                class="reviewer-image">
+                            <p class="review-text">"मार्केटिंगसाठी उत्कृष्ट ॲप. यात आम्हाला लागणारी सर्व साधने एकाच
+                                ठिकाणी आणि परवडणाऱ्या किंमतीत उपलब्ध आहेत.
+                                "</p>
+                            <h4 class="reviewer">- Anjali Marathe</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev"><i class="fas fa-chevron-left"></i> Previous</button>
+                    <button class="next">Next <i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </section>
+
+
+                <!--about section-->
+            <div class="container my-4">
+            <h2 class="section-title">About Us</h2>
+        <header class="page-header">
+            <h2>संघर्षातून उभा राहिलेला 'दि जाहिरातवाला' चा यशस्वी प्रवास</h2>
+        </header>
+        
+        <section class="founders-section" id="about">
+            <div class="founder-card">
+                <img src="img/maya.png" alt="माया गाडेकर" class="founder-img">
+                <div class="founder-info">
+                    <h2 class="founder-name">माया गाडेकर</h3>
+                    <p class="founder-role">सह-संस्थापक</p>
+                </div>
+            </div>
+            
+            <div class="founder-card">
+                <img src="img/sham.png" alt="शाम गाडेकर" class="founder-img">
+                <div class="founder-info">
+                    <h2 class="founder-name">शाम गाडेकर</h3>
+                    <p class="founder-role">सह-संस्थापक</p>
+                </div>
+            </div>
+        
+        </section>
+        
+        <section class="journey-section">
+            <h2 class="journey-title">आमचा प्रवास</h2>
+            
+            <div class="journey-content">
+                <p>जिद्द, मेहनत आणि नव्या स्वप्नांवर विश्वास ठेवत, माया आणि श्याम गाडेकर यांनी 'दि जाहिरातवाला' या अ‍ॅपच्या माध्यमातून डिजिटल जाहिरात क्षेत्रात एक नवीन क्रांती घडवली आहे. आर्थिक अडचणींवर मात करत, दोघांनी मिळून या यशस्वी प्रवासाची सुरुवात केली.</p>
+                
+                <div class="highlight">
+                    <p>देशभरात जेव्हा कोरोना महामारीचा उद्रेक झाला, त्या काळात श्याम गाडेकर यांना नोकरी सोडावी लागली आणि तेव्हा नुकतेच लग्न झालेल्या गाडेकर दाम्पत्यावर आर्थिक संकट ओढावले. मात्र परिस्थितीवर शोक न करता, त्यांनी मार्ग शोधायचा ठरवला.</p>
+                </div>
+                
+                <p>नोकरी शोधण्यासाठी पुण्याला जायचे ठरले मात्र अगदी गाडी भाडे द्यायला ही पैसे नव्हते, कसेबसे पैसे जुळवून या संकटाच्या काळात, माया आणि श्याम यांनी एकत्र येऊन रांजणगांव MIDC मध्ये मजुरीचे काम स्वीकारले. 12 तास उभे राहून दिवसभर श्रम पण मनात अनेक स्वप्न — यामध्ये ते दोघे गुंतले होते.</p>
+                
+                <p>माया यांनी स्वत:च्या साचवलेल्या थोड्याशा पैशातून एक छोटा संगणक (कॉम्प्युटर) खरेदी केला, कारण तिच्या मनात ठाम विश्वास होता की शिक्षण आणि कौशल्यच माणसाला पुढे नेऊ शकते. श्याम गाडेकर यांना डिजिटल मार्केटिंगची आवड होती. मायाने त्याला प्रोत्साहन दिलं आणि दोघांनी मिळून यामध्ये भविष्य शोधण्याचा निर्धार केला.</p>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">२०२०</div>
+                        <div class="timeline-content">नव्या स्किल्स शिकण्यासाठी त्यांनी एकमेकांना साथ दिली — सोशल मीडिया मार्केटिंग, ग्राफिक डिझायनिंग, व्हिडिओ एडिटिंग यांसारख्या कौशल्यांमध्ये त्यांनी प्रावीण्य मिळवलं.</div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-year">२०२१</div>
+                        <div class="timeline-content">छोट्या छोट्या प्रोजेक्ट्ससाठी जाहिराती तयार करताना त्यांनी 'दि जाहिरातवाला' या प्लॅटफॉर्मची संकल्पना उभी केली.</div>
+                    </div>
+                </div>
+                
+                <p class="highlight-accent">छोट्या मराठी व्यवसायिकांना, राजकीय नेत्यांना आणि विविध संस्थांना कमी खर्चात प्रभावी सोशल मीडिया डिझाईन्स उपलब्ध करून देणं, हे या अ‍ॅपचं ध्येय ठरलं.</p>
+                
+                <p class="highlight-blue">आज, 'दि जाहिरातवाला' अ‍ॅपच्या माध्यमातून हजारो व्यवसायिक, राजकीय नेते आणि उद्योजक आपल्या जाहिराती सुलभपणे तयार करून आपले काम लोकांपर्यंत पोहचवत आहे. आणि या अ‍ॅपच्या मार्फत आज अनेकांना रोजगार उपलब्ध करून देण्यात त्यांना यश आले आहे.</p>
+                
+                <p>पण ही कहाणी इथे संपत नाही. आज जरी गाडेकर दाम्पत्य यशाच्या पायावर चढत असलं, तरी त्यांची झगडण्याची वृत्ती तशीच आहे. अजूनही अनेक स्वप्न त्यांच्या डोळ्यात आहेत — नव्या सेवा सुरू करायच्या आहेत, 'दि जाहिरातवाला' ला राष्ट्रीय स्तरावर नेण्याचं ध्येय आहे, आणि मराठी माणसाला डिजिटल युगात स्वावलंबी बनवण्याचा संकल्प आहे.</p>
+            </div>
+        </section>
+
+          <!-- WhatsApp Icon -->
+        <a href="https://wa.me/917040391673" class="whatsapp-float" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="WhatsApp" width="60">
+        </a>
+
+          <!--Contact section-->
+    <section class="contact-section" id="contact">
+        <h2 class="journey-title">CONTACT US</h2>
+        
+        <div class="contact-container">
+            <!-- App Promotion Section - Top -->
+            <div class="app-promo">
+                <h2>आजच<br>The Jahiratwala <br>Download करा मराठी सोशल मीडिया डिझाईन्स तसेच व्हिडिओ अ‍ॅप</h2>
+                      <!-- App Store Links -->
+      <div class="app-images">
+        <!-- Google Play Store -->
+        <a href="https://play.google.com/store/apps/details?id=com.thejahiratwala.brandmaker" 
+           target="_blank" rel="noopener noreferrer">
+          <img src="img/gp.png" alt="Get it on Google Play" class="contact-img">
+        </a>
+
+        <!-- Apple App Store -->
+        <a href="https://apps.apple.com/in/app/the-jahiratwala/id6630371844" 
+           target="_blank" rel="noopener noreferrer">
+          <img src="img/as.png" alt="Download on the App Store" class="contact-img">
+        </a>
+      </div>
+
+      <!-- Download Now button (Play Store link) -->
+      <a href="https://play.google.com/store/apps/details?id=com.thejahiratwala.brandmaker" 
+         target="_blank" rel="noopener noreferrer">
+        <button class="download-btn">Download Now</button>
+      </a>
+
+               
+            </div>
+            
+            <!-- Bottom Sections Container -->
+            <div class="bottom-sections">
+                <!-- About Section -->
+                <div class="about-section">
+                    <div class="about-content">
+                        <div class="brand-image">
+                            <img src="img/logo2.png" alt="Jahiratwala Branding">
+                        </div>
+                        
+                        <h2 class="heading">About The Jahiratwala</h2>
+                        <p class="description">
+                            The Jahiratwala is a Social Media Branding Solution that enables you to generate and share the best social media visual content with your customers, team, audience, and network with your branding.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Contact Info Section -->
+                <div class="contact-info-section">
+                    <ul class="contact-info-list">
+                        <li>
+                            <div class="icon-wrapper">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <span class="icon-text">Opposite Sankruti Mangal Karyalay, Vadak Vasti, Nimgaon Korhale, Shirdi, Maharashtra - 423109</span>
+                        </li>
+                        <li>
+                            <div class="icon-wrapper">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span class="icon-text">thejahiratwala@gmail.com</span>
+                        </li>
+                        <li>
+                            <div class="icon-wrapper">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <span class="icon-text">+91 70403 91673</span>
+                        </li>
+                    </ul>
+                    
+                    <h3 class="social-heading">Follow Us On</h3>
+                    
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/thejahiratwala?igsh=MWZpNm93YzR6NHJzdQ==" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/1BfgNxNRMF/" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.link/5g1xci" target="_blank" class="social-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="design-image">
+                        <img src="img/last mobile.png" alt="Jahiratwala Design">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+        <footer class="footer">
+            <p>© 2023 The Jahiratwala. All Rights Reserved.</p>
+        </footer>
+
+    </main>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
